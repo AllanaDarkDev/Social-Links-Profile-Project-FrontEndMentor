@@ -27,11 +27,13 @@ main {
     color: var(--White);
     border-radius: 10px;
     text-align: center;
+    width: 350px;
 }
 
 main img {
     border-radius: 50%;
     width: 100px;
+    margin-top: 30px;
 }
 
 .sobre-mim p{
@@ -41,6 +43,7 @@ main img {
 
 .sobre-mim p:nth-child(4) {
     color: #E5E5E5;
+    font-size: 13px;
     margin: 20px 30px;
 }
 
@@ -54,7 +57,7 @@ main img {
     color: var(--White);
     border: none;
     padding: 13px;
-    margin: 10px 30px;
+    margin: 5px 40px;
     border-radius: 5px;
     transition: all 0.5s;
     font-weight: 900;
@@ -67,12 +70,4 @@ main img {
 .links button:hover {
     background-color: var(--Green);
     color: var(--Off-Black);
-}
-
-footer p{
-    color: var(--White);
-}
-
-footer a {
-    text-decoration: none;
 }
